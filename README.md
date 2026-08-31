@@ -41,6 +41,6 @@ Official Privacy Policy repository for the **OrderKart** customer application.
 
 * **App Name:** OrderKart
 * **Legal Entity:** OrderKart Fresh Foods & Essentials (ApliBhaji)
-* **Email:** support@aplibhaji.com
+* **Email:** supportorderkart@gmail.com
 * **WhatsApp / Phone:** +91 90211 07009
 * **Address:** Market Yard / Karve Road, Pune, Maharashtra 411038, India
