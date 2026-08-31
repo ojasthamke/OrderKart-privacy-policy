@@ -2,7 +2,5 @@ User-agent: *
 Allow: /
 Allow: /privacy-policy
 Allow: /privacy-policy/
-Allow: /delete-account
-Allow: /delete-account/
 
 Sitemap: https://ojasthamke.github.io/OrderKart-privacy-policy/sitemap.xml

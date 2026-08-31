@@ -1,10 +1,10 @@
-# OrderKart Privacy Policy 🛡️
+# OrderKart Privacy Policy & Legal Portal 🛡️
 
-Official Privacy Policy repository for the **OrderKart** customer application.
+Official legal and privacy documentation repository for the **OrderKart** customer mobile application.
 
 ---
 
-## 🌐 Official URLs (Google Play Console)
+## 🌐 Official Live URLs (Google Play Console)
 
 * **Privacy Policy URL:** [https://ojasthamke.github.io/OrderKart-privacy-policy/](https://ojasthamke.github.io/OrderKart-privacy-policy/)
 * **Account Deletion URL:** [https://ojasthamke.github.io/OrderKart-delete-account/](https://ojasthamke.github.io/OrderKart-delete-account/)
@@ -16,10 +16,16 @@ Official Privacy Policy repository for the **OrderKart** customer application.
 
 ```
 /
-├── index.html                  # Main Information & Policy Portal
+├── .nojekyll                   # Bypasses Jekyll build processing
+├── index.html                  # Main OrderKart Legal Portal & Privacy Policy
 ├── privacy-policy/
-│   └── index.html              # Dedicated Privacy Policy page
-├── robots.txt                  # Search engine crawler permissions
+│   └── index.html              # Dedicated subfolder Privacy Policy page
+├── docs/                       # Docs folder for GitHub Pages deployment
+│   ├── .nojekyll
+│   ├── index.html
+│   └── privacy-policy/
+│       └── index.html
+├── robots.txt                  # Search engine crawler rules
 ├── sitemap.xml                 # XML Sitemap for indexing
 └── README.md                   # Setup and deployment documentation
 ```
@@ -32,12 +38,13 @@ Official Privacy Policy repository for the **OrderKart** customer application.
 2. Go to **Settings** > **Pages** (in the left sidebar).
 3. Under **Build and deployment**:
    * **Source**: `Deploy from a branch`
-   * **Branch**: `main` / `root`
+   * **Branch**: `main`
+   * **Folder**: `/ (root)` or `/docs`
 4. Click **Save**.
 
 ---
 
-## 📞 Support & Compliance Contacts
+## 📞 Support & Grievance Redressal
 
 * **App Name:** OrderKart
 * **Legal Entity:** OrderKart Fresh Foods & Essentials
