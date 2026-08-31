@@ -5,4 +5,4 @@ Allow: /privacy-policy/
 Allow: /delete-account
 Allow: /delete-account/
 
-Sitemap: https://aplibhaji.com/sitemap.xml
+Sitemap: https://ojasthamke.github.io/OrderKart-privacy-policy/sitemap.xml

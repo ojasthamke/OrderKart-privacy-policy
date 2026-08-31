@@ -4,10 +4,10 @@ Official Privacy Policy repository for the **OrderKart** customer application.
 
 ---
 
-## 🌐 Live URLs (Google Play Console)
+## 🌐 Official URLs (Google Play Console)
 
-* **Production URL:** [https://aplibhaji.com/privacy-policy](https://aplibhaji.com/privacy-policy)
-* **GitHub Pages Fallback:** [https://ojasthamke.github.io/OrderKart-privacy-policy/](https://ojasthamke.github.io/OrderKart-privacy-policy/)
+* **Privacy Policy URL:** [https://ojasthamke.github.io/OrderKart-privacy-policy/](https://ojasthamke.github.io/OrderKart-privacy-policy/)
+* **Account Deletion URL:** [https://ojasthamke.github.io/OrderKart-delete-account/](https://ojasthamke.github.io/OrderKart-delete-account/)
 * **Master App Codebase:** [https://github.com/ojasthamke/OrderKart-main.git](https://github.com/ojasthamke/OrderKart-main.git)
 
 ---
@@ -29,7 +29,7 @@ Official Privacy Policy repository for the **OrderKart** customer application.
 ## 🚀 GitHub Pages Deployment Steps
 
 1. Open this repository: `https://github.com/ojasthamke/OrderKart-privacy-policy`.
-2. Go to **Settings** &gt; **Pages** (in the left sidebar).
+2. Go to **Settings** > **Pages** (in the left sidebar).
 3. Under **Build and deployment**:
    * **Source**: `Deploy from a branch`
    * **Branch**: `main` / `root`
