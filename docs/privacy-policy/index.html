@@ -3,581 +3,210 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OrderKart • Privacy Policy & Legal Portal</title>
-    <meta name="description" content="Official Privacy Policy and Legal Terms for OrderKart mobile application. Farm-fresh produce and daily grocery delivery in Pune.">
-    <link rel="canonical" href="https://ojasthamke.github.io/OrderKart-privacy-policy/">
+    <title>Privacy Policy - OrderKart</title>
+    <meta name="description" content="Privacy Policy for OrderKart (com.orderkart.app). Disclosures on data collection, Google Sign-In, Phone OTP, and user rights.">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
     <style>
         :root {
             --primary: #1B3624;
-            --primary-light: #2D5A3C;
-            --accent: #10B981;
-            --accent-dark: #059669;
-            --bg-page: #F8FAFC;
+            --emerald: #10B981;
+            --emerald-dark: #047857;
+            --bg-page: #F8FAF7;
             --bg-card: #FFFFFF;
-            --text-main: #0F172A;
+            --text-main: #1E293B;
             --text-muted: #64748B;
             --border: #E2E8F0;
-            --danger: #EF4444;
-            --warning: #F59E0B;
         }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
+        * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             background-color: var(--bg-page);
             color: var(--text-main);
-            line-height: 1.6;
-            -webkit-font-smoothing: antialiased;
+            line-height: 1.65;
+            padding: 24px 16px;
         }
-
-        /* HEADER */
-        header {
-            background-color: var(--primary);
-            color: #FFFFFF;
-            padding: 16px 24px;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
-        }
-
-        .header-inner {
-            max-width: 1050px;
+        .container {
+            max-width: 820px;
             margin: 0 auto;
+            background: var(--bg-card);
+            padding: 44px 36px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+            border: 1px solid var(--border);
+        }
+        .nav-back {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 24px;
+            font-size: 14px;
+            color: var(--emerald-dark);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .header {
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+        .logo-title {
+            font-size: 28px;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 6px;
+        }
+        .sub-title {
+            font-size: 13px;
+            color: var(--emerald-dark);
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .meta-box {
+            background: #F1F5F9;
+            padding: 12px 16px;
+            border-radius: 8px;
+            margin-top: 16px;
+            font-size: 13px;
+            color: var(--text-muted);
             display: flex;
             justify-content: space-between;
-            align-items: center;
-        }
-
-        .brand {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            text-decoration: none;
-            color: #FFFFFF;
-        }
-
-        .brand-logo {
-            width: 40px;
-            height: 40px;
-            background: linear-gradient(135deg, var(--accent), #047857);
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 800;
-            font-size: 18px;
-            letter-spacing: -0.5px;
-            color: #FFFFFF;
-            box-shadow: 0 2px 6px rgba(16, 185, 129, 0.4);
-        }
-
-        .brand-text h1 {
-            font-size: 19px;
-            font-weight: 800;
-            letter-spacing: -0.5px;
-            line-height: 1.1;
-        }
-
-        .brand-text span {
-            font-size: 11px;
-            color: #A7F3D0;
-            font-weight: 500;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        nav {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-        }
-
-        nav a {
-            color: #E2E8F0;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 600;
-            transition: color 0.2s;
-        }
-
-        nav a:hover {
-            color: #FFFFFF;
-        }
-
-        .nav-btn {
-            background-color: var(--accent);
-            color: #FFFFFF !important;
-            padding: 8px 16px;
-            border-radius: 8px;
-            font-weight: 700;
-            transition: background-color 0.2s;
-        }
-
-        .nav-btn:hover {
-            background-color: var(--accent-dark);
-        }
-
-        /* CONTAINER */
-        .container {
-            max-width: 1050px;
-            margin: 32px auto;
-            padding: 0 20px;
-        }
-
-        /* HERO */
-        .hero {
-            background: linear-gradient(135deg, #1B3624 0%, #2D5A3C 100%);
-            color: #FFFFFF;
-            padding: 44px 36px;
-            border-radius: 20px;
-            margin-bottom: 32px;
-            box-shadow: 0 10px 25px rgba(27, 54, 36, 0.15);
-        }
-
-        .hero-badge {
-            display: inline-block;
-            background: rgba(16, 185, 129, 0.25);
-            border: 1px solid var(--accent);
-            color: #A7F3D0;
-            padding: 4px 12px;
-            border-radius: 30px;
-            font-size: 12px;
-            font-weight: 700;
-            margin-bottom: 16px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .hero h2 {
-            font-size: 32px;
-            font-weight: 800;
-            line-height: 1.25;
-            margin-bottom: 12px;
-        }
-
-        .hero p {
-            font-size: 16px;
-            color: #CBD5E1;
-            max-width: 780px;
-            margin-bottom: 24px;
-        }
-
-        .hero-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 16px;
-            margin-top: 24px;
-            border-top: 1px solid rgba(255, 255, 255, 0.15);
-            padding-top: 24px;
-        }
-
-        .hero-item {
-            background: rgba(255, 255, 255, 0.08);
-            padding: 16px;
-            border-radius: 12px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .hero-item h4 {
-            font-size: 14px;
-            color: #A7F3D0;
-            margin-bottom: 4px;
-        }
-
-        .hero-item p {
-            font-size: 13px;
-            color: #E2E8F0;
-            margin-bottom: 0;
-        }
-
-        /* CARD */
-        .card {
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 36px;
-            margin-bottom: 32px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
-        }
-
-        .section-header {
-            margin-bottom: 24px;
-            padding-bottom: 16px;
-            border-bottom: 2px solid #F1F5F9;
-        }
-
-        .section-badge {
-            display: inline-block;
-            background: #ECFDF5;
-            color: var(--accent-dark);
-            font-weight: 700;
-            font-size: 12px;
-            padding: 4px 10px;
-            border-radius: 6px;
-            margin-bottom: 8px;
-            text-transform: uppercase;
-        }
-
-        .section-title {
-            font-size: 26px;
-            font-weight: 800;
-            color: var(--primary);
-        }
-
-        .meta-bar {
-            display: flex;
-            gap: 20px;
             flex-wrap: wrap;
-            margin-top: 8px;
-            font-size: 13px;
-            color: var(--text-muted);
+            gap: 8px;
         }
-
-        /* POLICY CONTENT */
-        h3 {
-            font-size: 18px;
-            font-weight: 700;
+        h2 {
+            font-size: 19px;
             color: var(--primary);
             margin-top: 28px;
-            margin-bottom: 10px;
+            margin-bottom: 12px;
+            font-weight: 700;
         }
-
-        p {
-            margin-bottom: 14px;
-            color: #334155;
-            font-size: 15px;
-        }
-
-        ul {
-            margin-left: 20px;
-            margin-bottom: 16px;
-        }
-
-        li {
+        h3 {
+            font-size: 16px;
+            color: var(--primary);
+            margin-top: 18px;
             margin-bottom: 8px;
-            font-size: 14.5px;
-            color: #334155;
+            font-weight: 600;
         }
-
-        li strong {
-            color: #0F172A;
-        }
-
-        .alert-box {
-            background-color: #ECFDF5;
-            border-left: 4px solid var(--accent);
-            padding: 16px 20px;
-            border-radius: 8px;
+        p { margin-bottom: 14px; font-size: 14.5px; color: #334155; }
+        ul { margin-left: 20px; margin-bottom: 16px; }
+        li { margin-bottom: 8px; font-size: 14px; color: #475569; }
+        .highlight-box {
+            background: #ECFDF5;
+            border-left: 4px solid var(--emerald);
+            padding: 16px;
+            border-radius: 6px;
             margin: 20px 0;
-            font-size: 14.5px;
+            font-size: 14px;
             color: #065F46;
         }
-
-        .danger-box {
-            background-color: #FEF2F2;
-            border-left: 4px solid var(--danger);
-            padding: 16px 20px;
-            border-radius: 8px;
-            margin: 20px 0;
-            font-size: 14.5px;
-            color: #991B1B;
-        }
-
-        /* SUPPORT DESK */
-        .support-card {
-            background: #F8FAFC;
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 24px;
-            margin-top: 28px;
-        }
-
-        .support-card h4 {
-            font-size: 17px;
-            color: var(--primary);
-            margin-bottom: 12px;
-        }
-
-        .contact-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 16px;
-            margin-top: 16px;
-        }
-
-        .contact-box {
-            background: #FFFFFF;
-            padding: 16px;
-            border-radius: 8px;
-            border: 1px solid var(--border);
-        }
-
-        .contact-box strong {
-            display: block;
-            font-size: 12px;
-            text-transform: uppercase;
-            color: var(--text-muted);
-            margin-bottom: 4px;
-        }
-
-        .contact-box a, .contact-box span {
-            color: var(--accent-dark);
-            text-decoration: none;
-            font-weight: 700;
-            font-size: 15px;
-        }
-
-        /* FOOTER */
-        footer {
-            background: #FFFFFF;
+        .footer {
+            margin-top: 40px;
             border-top: 1px solid var(--border);
-            padding: 36px 20px;
-            text-align: center;
-            font-size: 13.5px;
+            padding-top: 24px;
+            font-size: 13px;
             color: var(--text-muted);
-            margin-top: 60px;
+            text-align: center;
         }
-
-        .footer-inner {
-            max-width: 1050px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 16px;
-        }
-
-        .footer-links {
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .footer-links a {
-            color: var(--text-main);
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 13.5px;
-            transition: color 0.2s;
-        }
-
-        .footer-links a:hover {
-            color: var(--accent-dark);
-        }
-
-        @media (max-width: 768px) {
-            header { padding: 14px 16px; }
-            .card { padding: 24px 18px; }
-            .hero { padding: 32px 20px; }
-            .hero h2 { font-size: 24px; }
-            nav { display: none; }
-        }
+        a { color: var(--emerald-dark); text-decoration: none; font-weight: 600; }
+        a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
-
-    <!-- STICKY HEADER -->
-    <header>
-        <div class="header-inner">
-            <a href="./" class="brand">
-                <div class="brand-logo">OK</div>
-                <div class="brand-text">
-                    <h1>OrderKart</h1>
-                    <span>Fresh Foods & Grocery Delivery</span>
-                </div>
-            </a>
-            <nav>
-                <a href="#privacy">Privacy Policy</a>
-                <a href="#about">About</a>
-                <a href="#operations">Store Operations</a>
-                <a href="#deletion">Account Deletion</a>
-                <a href="#contact">Support Desk</a>
-                <a href="https://github.com/ojasthamke/OrderKart-main" target="_blank" rel="noopener">GitHub</a>
-                <a href="https://ojasthamke.github.io/OrderKart-delete-account/" class="nav-btn">Delete Account</a>
-            </nav>
-        </div>
-    </header>
-
     <div class="container">
-
-        <!-- HERO -->
-        <div class="hero">
-            <div class="hero-badge">Pune Farm-Fresh Produce Network</div>
-            <h2>OrderKart Official Legal, Privacy & Compliance Portal</h2>
-            <p>OrderKart operates a specialized farm-to-table vegetable and grocery delivery service in Pune, Maharashtra. We guarantee authentic wholesale APMC pricing, rigorous morning quality grading, convenient doorstep delivery, and total transparency in user data protection.</p>
-            <div class="hero-grid">
-                <div class="hero-item">
-                    <h4>Direct Single-Seller Entity</h4>
-                    <p>Verified Inventory E-Commerce store in Pune (not an open marketplace).</p>
-                </div>
-                <div class="hero-item">
-                    <h4>Pay on Delivery</h4>
-                    <p>Cash on Delivery or instant UPI QR code upon doorstep delivery.</p>
-                </div>
-                <div class="hero-item">
-                    <h4>Free Delivery Over ₹300</h4>
-                    <p>₹30 standard delivery, completely free for orders ₹300 and above.</p>
-                </div>
-                <div class="hero-item">
-                    <h4>Fair Price Guarantee</h4>
-                    <p>Transparent 5-rupee ceiling rounding & Checkout price-lock.</p>
-                </div>
+        <a href="index.html" class="nav-back">← Back to OrderKart Home</a>
+        
+        <div class="header">
+            <div class="sub-title">Legal & Privacy Compliance</div>
+            <div class="logo-title">Privacy Policy</div>
+            <div class="meta-box" style="display: block; line-height: 1.6;">
+                <p><strong>Operated by:</strong> ApliBhaji Fresh Foods (Trade Name: OrderKart)</p>
+                <p><strong>Registered Address:</strong> Market Yard, Yavatmal, Maharashtra 445001, India</p>
+                <p><strong>Customer Support:</strong> +91 90211 07009 | <strong>Email:</strong> supportorderkart@gmail.com</p>
+                <p><strong>Effective Date:</strong> 1 October 2026 | <strong>Version:</strong> 2.0</p>
             </div>
         </div>
 
-        <!-- MAIN PRIVACY POLICY CARD -->
-        <div class="card" id="privacy">
-            <div class="section-header">
-                <div class="section-badge">Google Play Store & Indian DPDP Act 2023 Compliant</div>
-                <h2 class="section-title">OrderKart Privacy Policy</h2>
-                <div class="meta-bar">
-                    <span><strong>Entity:</strong> OrderKart Fresh Foods & Essentials</span>
-                    <span><strong>Effective Date:</strong> 1 August 2026</span>
-                    <span><strong>Last Updated:</strong> 31 August 2026</span>
-                    <span><strong>Version:</strong> 2.0 (Verified Final)</span>
-                </div>
-            </div>
 
-            <div class="alert-box">
-                <strong>Privacy Commitment:</strong> OrderKart respects your personal privacy. We collect only the bare minimum personal data required to register your account, route your grocery orders, and provide customer support. We never sell, rent, or trade your personal information.
-            </div>
-
-            <h3>1. Introduction & Operating Entity</h3>
-            <p>This Privacy Policy outlines how <strong>OrderKart Fresh Foods & Essentials</strong> ("OrderKart", "we", "us", or "our") collects, uses, protects, and discloses personal information obtained from users ("you" or "customer") of the OrderKart customer mobile application and related delivery services operating in Pune, Maharashtra, India.</p>
-            <p>OrderKart operates as a single-seller <strong>Inventory E-Commerce Entity</strong> delivering fresh vegetables, fruits, and household goods. We do not operate a multi-vendor marketplace.</p>
-
-            <h3>2. Information We Collect</h3>
-            <p>We collect only the essential personal details you provide during registration and order processing:</p>
-            <ul>
-                <li><strong>Contact Identification:</strong> Full Name and Primary 10-digit Mobile Phone Number (used for OTP-based authentication, order status updates, and delivery verification).</li>
-                <li><strong>Delivery Address:</strong> House/Flat Number, Building Name, Society/Colony, Street/Road name, and Assigned Delivery Area within Pune.</li>
-                <li><strong>Optional Details:</strong> Alternate contact number and dietary preferences if voluntarily provided.</li>
-                <li><strong>Device Diagnostics & Push Tokens:</strong> Firebase Cloud Messaging (FCM) registration tokens to deliver real-time order confirmation, out-for-delivery alerts, and delivery schedule notifications.</li>
-            </ul>
-
-            <div class="alert-box">
-                <strong>What We DO NOT Collect:</strong>
-                <ul style="margin-top: 6px; margin-bottom: 0;">
-                    <li>❌ We DO NOT collect continuous background GPS location or real-time location tracking.</li>
-                    <li>❌ We DO NOT access your camera, photo gallery, or device media.</li>
-                    <li>❌ We DO NOT access your phone address book or contacts.</li>
-                    <li>❌ We DO NOT store debit/credit card numbers or banking passwords (payments are processed via Pay on Delivery / UPI QR).</li>
-                </ul>
-            </div>
-
-            <h3>3. How We Use Your Information</h3>
-            <p>Your data is processed strictly for legitimate operational purposes:</p>
-            <ul>
-                <li>To authenticate your login securely via mobile OTP and PIN verification.</li>
-                <li>To process, pack, and deliver your fresh vegetable orders to your registered address.</li>
-                <li>To communicate order status, dispatch timing, and delivery schedules via push notifications, SMS, or WhatsApp.</li>
-                <li>To maintain accurate accounting ledgers and generate statutory tax invoices in accordance with Indian tax laws.</li>
-            </ul>
-
-            <h3>4. Backend Cloud Architecture & Third-Party Processors</h3>
-            <p>OrderKart employs industry-standard cloud infrastructure to guarantee data integrity:</p>
-            <ul>
-                <li><strong>Supabase Cloud:</strong> Encrypted PostgreSQL database instance with Row Level Security (RLS) and SSL/TLS 1.3 encryption for secure account and order synchronization.</li>
-                <li><strong>Google Firebase:</strong> Firebase Cloud Messaging (FCM) used solely for delivering operational transactional push notifications to your device.</li>
-            </ul>
-
-            <h3>5. Data Retention & Statutory Accounting Obligations</h3>
-            <p>Personal profile information and authentication credentials are maintained while your account remains active.</p>
-            <p>Under <strong>Section 44AA of the Indian Income Tax Act 1961</strong> and <strong>Section 35 of the Central Goods and Services Tax (CGST) Act 2017</strong>, completed commercial transaction records, tax invoices, and sales receipts must be retained in our local shop records for statutory audit periods (up to 8 consecutive years).</p>
-
-            <h3 id="deletion">6. Account Deletion & User Rights</h3>
-            <p>You have the absolute right to delete your OrderKart account at any time:</p>
-            <ul>
-                <li><strong>Instant In-App Deletion:</strong> Open the OrderKart app &gt; <strong>My Profile</strong> &gt; <strong>Information & Support</strong> &gt; Tap <strong>Delete Account</strong>. Your cloud credentials, password hashes, and FCM tokens will be erased instantly.</li>
-                <li><strong>External Web Deletion Portal:</strong> Visit our dedicated <a href="https://ojasthamke.github.io/OrderKart-delete-account/">Account Deletion Portal</a> or email <a href="mailto:supportorderkart@gmail.com">supportorderkart@gmail.com</a>. Web deletion requests are verified and processed within 24 to 48 hours.</li>
-            </ul>
-
-            <div class="support-card" id="contact">
-                <h4>7. Customer Support & Statutory Grievance Redressal Desk</h4>
-                <p>For privacy inquiries, order support, or compliance matters, please reach out to our dedicated Grievance Officer:</p>
-                <div class="contact-grid">
-                    <div class="contact-box">
-                        <strong>Official Support Email</strong>
-                        <a href="mailto:supportorderkart@gmail.com">supportorderkart@gmail.com</a>
-                    </div>
-                    <div class="contact-box">
-                        <strong>WhatsApp / Helpline</strong>
-                        <a href="https://wa.me/919021107009">+91 90211 07009</a>
-                    </div>
-                    <div class="contact-box">
-                        <strong>Operating Hub</strong>
-                        <span>Market Yard / Karve Road, Pune 411038</span>
-                    </div>
-                    <div class="contact-box">
-                        <strong>Grievance Officer</strong>
-                        <span>Compliance Officer, OrderKart</span>
-                    </div>
-                </div>
-            </div>
+        <div class="highlight-box">
+            <strong>Commitment to User Privacy:</strong> OrderKart values your trust. We collect only the essential personal information required to authenticate your identity, coordinate local fresh grocery deliveries, and provide real-time order tracking. We do not sell your personal data to third parties.
         </div>
 
-        <!-- ABOUT ORDERKART CARD -->
-        <div class="card" id="about">
-            <div class="section-header">
-                <div class="section-badge">Business Identity & Operations</div>
-                <h2 class="section-title">About OrderKart Fresh Foods & Essentials</h2>
-            </div>
-            <p><strong>OrderKart</strong> is Pune's specialized local farm-to-table fresh produce and daily grocery delivery service. Founded to bridge local Pune households directly with the Pune Agriculture Produce Market Committee (APMC) and regional farms, OrderKart delivers unmatched freshness, wholesale market rates, and honest weights.</p>
+        <h2>1. Overview & Scope</h2>
+        <p>This Privacy Policy explains how OrderKart ("we", "our", or "us"), operated under ApliBhaji Fresh Foods, collects, stores, processes, and protects your personal data when you use the OrderKart mobile application (Package ID: <code>com.orderkart.app</code>) or our website.</p>
 
-            <h3>Core Operational Pillars:</h3>
-            <ul>
-                <li><strong>Direct Sourcing:</strong> All vegetables and fruits are freshly procured every morning directly from farmers and the Pune APMC market.</li>
-                <li><strong>Transparent Metric Pricing:</strong> Clear per-kilogram and fractional metric rates with transparent checkout price locking.</li>
-                <li><strong>Hygienic Morning Sorting:</strong> Hand-picked, sorted, and packed in clean facilities before morning and evening delivery runs.</li>
-                <li><strong>Pay on Delivery:</strong> Inspect your fresh items at your doorstep before completing payment via Cash or UPI.</li>
-            </ul>
+        <h2>2. Information We Collect & Why</h2>
+        <p>To provide reliable hyper-local grocery delivery services, we collect the following categories of data:</p>
+
+        <h3>A. Authentication & Contact Information</h3>
+        <ul>
+            <li><strong>Email Address:</strong> When you sign in using <strong>Google Sign-In (Google Identity Services)</strong>, we obtain your verified email address and basic profile information to authenticate your session, protect your account from unauthorized access, and send digital order receipts and critical service alerts.</li>
+            <li><strong>Phone Number:</strong> When you use <strong>Mobile Phone OTP Authentication</strong> or complete your profile, we collect your 10-digit mobile number to verify your identity via SMS OTP, enable delivery drivers to call or message you upon arrival, and send order status updates.</li>
+            <li><strong>Full Name:</strong> Collected to personalize your account profile and identify recipient parcels at delivery.</li>
+        </ul>
+
+        <h3>B. Delivery & Location Data</h3>
+        <ul>
+            <li><strong>Physical Delivery Address:</strong> Flat/House Number, Building/Society Name, Road/Street Name, and Delivery Area/Neighborhood. This information is strictly used by our fulfillment team to route your orders.</li>
+            <li><strong>Precise / Approximate Location:</strong> If granted, location permissions are used solely to assist you in selecting your delivery area from our supported service zones.</li>
+        </ul>
+
+        <h3>C. Device & Technical Information</h3>
+        <ul>
+            <li><strong>Push Notification Tokens (FCM):</strong> Firebase Cloud Messaging device tokens are used to send instant push notifications when your order is placed, confirmed, dispatched for delivery, or delivered.</li>
+            <li><strong>Device Model & OS Version:</strong> Used for diagnostic purposes, crash reporting, and app performance optimization.</li>
+        </ul>
+
+        <h2>3. How We Use Your Data</h2>
+        <p>We use your information exclusively for legitimate business and fulfillment purposes:</p>
+        <ul>
+            <li>Processing, packing, and delivering farm-fresh grocery orders to your specified address.</li>
+            <li>Authenticating your account via Google OAuth 2.0 or Firebase Phone OTP.</li>
+            <li>Sending real-time order tracking notifications and transactional invoices.</li>
+            <li>Customer service inquiries, replacement requests, and grievance redressal.</li>
+            <li>Preventing fraud, spam accounts, and ensuring platform integrity.</li>
+        </ul>
+
+        <h2>4. Third-Party Service Providers</h2>
+        <p>We partner only with industry-leading, privacy-compliant service providers to support our operations:</p>
+        <ul>
+            <li><strong>Google Identity Services & Firebase (Google LLC):</strong> Facilitates secure Google Sign-In, Firebase Phone OTP authentication, and Firebase Cloud Messaging (FCM) push notifications.</li>
+            <li><strong>Supabase (PostgreSQL Infrastructure):</strong> Encrypted cloud database hosting with strict Row-Level Security (RLS) ensuring your data is isolated and protected.</li>
+        </ul>
+
+        <h2>5. Data Storage, Security & Retention</h2>
+        <p>All sensitive customer data is transmitted using encrypted connections (TLS 1.3/HTTPS) and stored in secure cloud databases protected by granular access controls. We retain your personal data for as long as your account remains active or as required by applicable laws for tax and accounting purposes.</p>
+
+        <h2>6. Your Rights & Data Deletion</h2>
+        <p>You have full control over your personal data:</p>
+        <ul>
+            <li><strong>View & Update:</strong> You can review and update your name, address, and delivery area inside the app at any time.</li>
+            <li><strong>Account Deletion:</strong> You can delete your account and all associated personal data directly within the mobile app (via <em>Profile → Delete Account</em>) or via our public <a href="delete_account.html">Account Deletion Request Portal</a>. Upon deletion, your customer record, address, and contact details are permanently expunged.</li>
+        </ul>
+
+        <h2>7. Children's Privacy</h2>
+        <p>OrderKart does not knowingly collect personal data from children under the age of 13. If you believe a child has provided us with personal data, please contact us immediately so we can remove it.</p>
+
+        <h2>8. Payment Data Security</h2>
+        <p>OrderKart partners with RBI-authorized payment aggregators (such as PayU Payments Private Limited). We do not collect, process, or store your debit/credit card numbers, CVV, or net banking passwords on our servers. All online transactions are handled through 256-bit SSL encrypted channels adhering to PCI-DSS Level 1 compliance standards.</p>
+
+        <h2>9. Cookies & Tracking Technologies</h2>
+        <p>OrderKart does not deploy tracking or advertising cookies. Our mobile application operates using secure local authentication tokens, and our website does not utilize third-party ad retargeting or profiling trackers.</p>
+
+        <h2>10. Contact & Grievance Redressal Officer</h2>
+        <p>If you have any questions, feedback, or grievances regarding this Privacy Policy or your personal data, please contact our designated Grievance Officer:</p>
+        <div class="meta-box" style="display: block;">
+            <p style="margin-bottom: 6px;"><strong>Legal Entity:</strong> ApliBhaji Fresh Foods (Trade Name: OrderKart)</p>
+            <p style="margin-bottom: 6px;"><strong>Designation:</strong> Grievance Redressal Officer, OrderKart Compliance</p>
+            <p style="margin-bottom: 6px;"><strong>Registered Address:</strong> Market Yard, Yavatmal, Maharashtra 445001, India</p>
+            <p style="margin-bottom: 6px;"><strong>Phone / WhatsApp:</strong> +91 90211 07009</p>
+            <p style="margin-bottom: 0;"><strong>Official Email:</strong> <a href="mailto:supportorderkart@gmail.com">supportorderkart@gmail.com</a> | <a href="mailto:support@orderkart.app">support@orderkart.app</a></p>
         </div>
 
-        <!-- STORE OPERATIONS & PRICING CARD -->
-        <div class="card" id="operations">
-            <div class="section-header">
-                <div class="section-badge">Pricing, Delivery & Refund Rules</div>
-                <h2 class="section-title">Store Operations & Customer Terms</h2>
-            </div>
-
-            <h3>1. Delivery Charges & Thresholds</h3>
-            <ul>
-                <li><strong>Orders ₹300 and above:</strong> FREE Doorstep Delivery.</li>
-                <li><strong>Orders below ₹300:</strong> Flat ₹30 nominal delivery fee.</li>
-                <li><strong>Daily Cutoff Time:</strong> 23:59 IST (Orders placed before midnight are packed fresh for next-day delivery).</li>
-            </ul>
-
-            <h3>2. Five-Rupee Ceiling Rounding</h3>
-            <p>To eliminate loose coin friction during Cash on Delivery, OrderKart applies standard 5-rupee ceiling rounding: <code>(Grand Total ÷ 5).ceil() × 5</code>. The exact unrounded total and rounded billing amount are displayed with 100% transparency at checkout.</p>
-
-            <h3>3. Return, Refund & Quality Guarantee</h3>
-            <p>Because produce is perishable, customers can inspect all items at the time of delivery. If any item fails to meet quality standards, you may refuse the item on the spot, and the bill total will be adjusted immediately before payment.</p>
+        <div class="footer">
+            <p>&copy; 2026 ApliBhaji Fresh Foods / OrderKart. All rights reserved.</p>
+            <p style="margin-top: 6px;"><a href="index.html">Home</a> • <a href="about.html">About Us</a> • <a href="terms.html">Terms & Conditions</a> • <a href="refund_policy.html">Return & Refund Policy</a> • <a href="cancellation_policy.html">Cancellation Policy</a> • <a href="contact.html">Contact Us</a> • <a href="delete_account.html">Delete Account</a></p>
         </div>
-
     </div>
-
-    <!-- FOOTER -->
-    <footer>
-        <div class="footer-inner">
-            <div class="footer-links">
-                <a href="#privacy">Privacy Policy</a>
-                <a href="https://ojasthamke.github.io/OrderKart-delete-account/">Account Deletion</a>
-                <a href="#about">About OrderKart</a>
-                <a href="#operations">Delivery & Pricing Terms</a>
-                <a href="#contact">Grievance Desk</a>
-                <a href="https://github.com/ojasthamke/OrderKart-main" target="_blank" rel="noopener">GitHub (OrderKart-main)</a>
-            </div>
-            <p>&copy; 2026 OrderKart • OrderKart Fresh Foods & Essentials. All rights reserved.</p>
-            <p style="font-size: 12px; color: #94A3B8;">Operating as a verified Inventory E-Commerce Entity in Pune, Maharashtra, India. Published in compliance with Google Play Developer Program Policies.</p>
-        </div>
-    </footer>
-
 </body>
 </html>
